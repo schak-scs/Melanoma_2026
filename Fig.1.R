@@ -107,7 +107,7 @@ saveRDS(macro, file = "/Users/......../feldman_seurat_SC.rds")
 
 #load saved RDS
 
-#macro <- readRDS("/Users/sajibchakraborty/Documents/EkoEstMed/Immune Sub Type/Melanoma/scRNA-seq/feldman_seurat.rds")
+#macro <- readRDS("feldman_seurat.rds")
 
 
 # find all markers of cluster 0
@@ -223,7 +223,7 @@ mat_melt <- melt(mat)
 
 #save long data
 
-#write.xlsx(mat_melt, "/Users/sajibchakraborty/Documents/EkoEstMed/Immune Sub Type/Melanoma/scRNA-seq/Feldmann_Ucell_long_format.xlsx")
+#write.xlsx(mat_melt, "Feldmann_Ucell_long_format.xlsx")
 
 
 #violin zitter
